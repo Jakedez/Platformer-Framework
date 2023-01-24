@@ -17,6 +17,8 @@
 		"stdbool.h": "c",
 		"splashscreen.h": "c",
 		"easydialog.h": "c",
-		"string.h": "c"
+		"string.h": "c",
+		"apisetcconv.h": "c",
+		"minwindef.h": "c"
 	}
 }
