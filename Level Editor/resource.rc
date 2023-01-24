@@ -1,0 +1,28 @@
+GLFW_ICON ICON "icon.ico"
+OPENWITH_ICON ICON "fileIcon.ico"
+
+1 VERSIONINFO
+FILEVERSION     1,0,1,5
+PRODUCTVERSION  1,0,1,5
+BEGIN
+  BLOCK "StringFileInfo"
+  BEGIN
+	//BLOCK "080904E4" 	// English UK
+    BLOCK "040904E4"	// English US
+    BEGIN
+	  //VALUE "CompanyName", "Jacobs Games"
+      VALUE "FileDescription", "Sapphire Level Editor"
+      VALUE "FileVersion", "1.1.0"
+      VALUE "InternalName", "Sapphire Level Editor"
+      VALUE "LegalCopyright", "(c) 2022 Jacob Deschamps"
+      //VALUE "OriginalFilename", "Level_Editor.exe"
+      VALUE "ProductName", "Platformer Level Editor"
+      VALUE "ProductVersion", "1.0.1.5"
+    END
+  END
+  BLOCK "VarFileInfo"
+  BEGIN
+	//VALUE "Translation", 0x809, 1252	// English UK
+    VALUE "Translation", 0x409, 1252	// English US
+  END
+END
